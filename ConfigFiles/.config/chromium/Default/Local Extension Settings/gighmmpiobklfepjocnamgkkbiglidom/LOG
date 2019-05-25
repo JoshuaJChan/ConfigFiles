@@ -1,0 +1,23 @@
+2019/05/25-15:24:18.659 1970 Reusing MANIFEST /home/play/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2019/05/25-15:24:18.660 1970 Recovering log #578
+2019/05/25-15:24:18.660 1970 Reusing old log /home/play/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000578.log 
+2019/05/25-15:25:19.589 1af6 Level-0 table #582: started
+2019/05/25-15:25:19.649 1af6 Level-0 table #582: 4098278 bytes OK
+2019/05/25-15:25:19.652 1af6 Delete type=0 #578
+2019/05/25-15:25:23.394 1af6 Level-0 table #584: started
+2019/05/25-15:25:23.453 1af6 Level-0 table #584: 4098276 bytes OK
+2019/05/25-15:25:23.456 1af6 Delete type=0 #581
+2019/05/25-15:25:24.747 1af6 Level-0 table #586: started
+2019/05/25-15:25:24.806 1af6 Level-0 table #586: 4098034 bytes OK
+2019/05/25-15:25:24.809 1af6 Delete type=0 #583
+2019/05/25-15:25:24.811 1af6 Compacting 4@0 + 2@1 files
+2019/05/25-15:25:24.904 1af6 Generated table #587@0: 1 keys, 4098034 bytes
+2019/05/25-15:25:24.907 1af6 Generated table #588@0: 5 keys, 422 bytes
+2019/05/25-15:25:24.907 1af6 Compacted 4@0 + 2@1 files => 4098456 bytes
+2019/05/25-15:25:24.909 1af6 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/05/25-15:25:24.909 1af6 Delete type=2 #576
+2019/05/25-15:25:24.910 1af6 Delete type=2 #579
+2019/05/25-15:25:24.910 1af6 Delete type=2 #582
+2019/05/25-15:25:24.911 1af6 Delete type=2 #577
+2019/05/25-15:25:24.911 1af6 Delete type=2 #584
+2019/05/25-15:25:24.911 1af6 Delete type=2 #586

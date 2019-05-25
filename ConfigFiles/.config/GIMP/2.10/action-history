@@ -1,0 +1,15 @@
+# GIMP action-history
+
+(history-item "layers-new" 0)
+(history-item "file-quit" 1)
+(history-item "file-save-as" 0)
+(history-item "file-open" 1)
+(history-item "edit-copy" 0)
+(history-item "brushes-edit" 0)
+(history-item "image-new" 0)
+(history-item "edit-paste" 0)
+(history-item "file-save" 0)
+(history-item "layers-new-group" 0)
+(history-item "windows-show-display-next" 1)
+
+# end of action-history
