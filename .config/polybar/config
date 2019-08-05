@@ -1,0 +1,276 @@
+; for more help visit: https://github.com/polybar/polybar
+
+[colors]
+background = ${xrdb:background}
+foreground = ${xrdb:foreground}
+foreground-alt = ${xrdb:color0}
+primary = ${xrdb:color12}
+secondary = ${xrdb:color7}
+alert = ${xrdb:color1}
+transparent = #00000000
+cpu = ${xrdb:color6}
+network = ${xrdb:color13}
+disconnected = ${xrdb:color5}
+tray = ${xrdb:background}
+pulseaudio = ${xrdb:color4}
+battery = ${xrdb:color11}
+i3 = ${xrdb:color8}
+
+[bar/top]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 26 
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+; puts the module that's centered, right in the center
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 3
+;transparent border
+border-color = ${colors.transparent}
+
+;changes the module position, not the actual bar
+padding-left = 0 
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = "Source Code Pro:pixelsize=12;3"
+font-1 = "unifont:fontformat=truetype:size=8:antialias=false;0"
+font-2 = "Roboto:pixelsize=10;1"
+;Must be added in to properly render Font Awesome fonts
+font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=10;2"
+font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=10;2"
+font-5 = "Font Awesome 5 Brands:pixelsize=10;2"
+
+modules-left = i3
+modules-center = date 
+modules-right = cpu wlan eth battery pulseaudio 
+
+tray-position = right
+tray-padding = 2
+tray-background = ${colors.tray}
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+;set no dim when polybar is the inactive window
+dim-value = 1.0
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+
+label-mode = %mode%
+label-mode-padding = 1
+label-mode-background = ${colors.primary}
+label-mode-foreground = ${colors.foreground-alt}
+
+;for some reason, icon-7 and icon-9 don't work with icons and are automatically defaulted
+;order: chrome, term, files, write, 
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 10;
+ws-icon-default = 
+
+label-focused = %icon% 
+label-focused-foregroud = ${colors.foreground}
+label-focused-background = ${colors.i3}
+label-focused-padding = 1
+
+label-unfocused = %icon%  
+label-unfocused-padding = 1
+
+label-urgent = %icon% 
+label-urgent-foreground = ${colors.foreground}
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = 
+format-prefix-padding-right = 1
+;below must add to change whole cpu module's padding
+format-padding = 1;
+format-foreground = ${colors.foreground-alt}
+format-background = ${colors.cpu}
+label = %percentage:2%%
+radius = 3
+
+[module/wlan]
+; All labels support the following tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %local_ip6% [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %linkspeed% [wired]
+type = internal/network
+interface = wlp3s0
+interval = 3.0
+
+;if connected
+;format-connected = <ramp-signal> <label-connected>
+format-connected =  <label-connected>
+
+label-connected = %essid%
+;remember, padding is inside background, margin is outside background
+format-connected-padding = 1
+format-connected-foreground = ${colors.foreground-alt}
+format-connected-background = ${colors.network}
+
+;if disconnected
+format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+label-disconnected = %ifname% 
+label-disconnected-foreground = ${colors.disconnected}
+
+;broken since fonts not installed
+;its okay since I already have nm-applet
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.foreground}
+
+[module/eth]
+type = internal/network
+interface = enp2s0
+interval = 3.0
+
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+format-margin = 3
+
+;there's no variable for ethernet connected name LOL
+label-connected = Connected
+label-connected-background = ${colors.network}
+
+label-disconnected = 
+label-disconnected-foreground = ${colors.disconnected}
+label-disconnected-background = ${colors.network}
+
+[module/date]
+type = internal/date
+
+module-margin-left = 10
+
+time = %I:%M %p
+; When time is clicked, it changes to date 
+time-alt = %a %b %d 
+
+format-prefix =  
+format-prefix-foreground = ${colors.foreground}
+format-prefix-background = ${colors.foreground}
+
+label = %time%
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+;format-volume = <label-volume> <bar-volume>
+format-volume = <ramp-volume> <label-volume> 
+format-volume-background = ${colors.pulseaudio}
+format-volume-foreground = ${colors.foreground-alt}
+format-volume-padding = 1
+
+label-volume = %percentage%%
+
+label-muted =  
+label-muted-background = ${colors.pulseaudio}
+label-muted-foreground = ${colors.foreground-alt}
+label-muted-padding = 3
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ACAD
+full-at = 89
+
+format-charging =  <label-charging>
+format-charging-padding = 1
+format-charging-foreground = ${colors.foreground-alt}
+format-charging-background = ${colors.battery}
+
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-foreground = ${colors.foreground-alt}
+format-discharging-background = ${colors.battery}
+format-discharging-padding = 1
+
+format-full =  <label-full>
+format-full-foreground = ${colors.foreground-alt}
+format-full-background = ${colors.battery}
+format-full-padding = 1
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-framerate = 750
+
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-framerate = 750
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+; vim:ft=dosini

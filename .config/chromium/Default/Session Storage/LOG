@@ -1,0 +1,36 @@
+2019/08/05-01:05:37.899 19d8 Reusing MANIFEST Session Storage/MANIFEST-000001
+2019/08/05-01:05:37.902 19d8 Recovering log #889
+2019/08/05-01:05:37.902 19d8 Reusing old log Session Storage/000889.log 
+2019/08/05-01:11:30.340 1c15 Level-0 table #893: started
+2019/08/05-01:11:30.347 1c15 Level-0 table #893: 18242 bytes OK
+2019/08/05-01:11:30.350 1c15 Delete type=0 #889
+2019/08/05-01:11:30.350 1bef Compacting 4@0 + 1@1 files
+2019/08/05-01:11:30.374 1bef Generated table #894@0: 10941 keys, 331351 bytes
+2019/08/05-01:11:30.374 1bef Compacted 4@0 + 1@1 files => 331351 bytes
+2019/08/05-01:11:30.377 1bef compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/08/05-01:11:30.377 1bef Delete type=2 #887
+2019/08/05-01:11:30.377 1bef Delete type=2 #890
+2019/08/05-01:11:30.377 1bef Delete type=2 #884
+2019/08/05-01:11:30.377 1bef Delete type=2 #882
+2019/08/05-01:11:30.378 1bef Delete type=2 #893
+2019/08/05-01:14:51.819 1dab Level-0 table #896: started
+2019/08/05-01:14:51.824 1dab Level-0 table #896: 17287 bytes OK
+2019/08/05-01:14:51.827 1dab Delete type=0 #892
+2019/08/05-01:28:54.394 1f89 Level-0 table #898: started
+2019/08/05-01:28:54.403 1f89 Level-0 table #898: 18181 bytes OK
+2019/08/05-01:28:54.406 1f89 Delete type=0 #895
+2019/08/05-01:33:31.844 21f3 Level-0 table #900: started
+2019/08/05-01:33:31.854 21f3 Level-0 table #900: 20248 bytes OK
+2019/08/05-01:33:31.859 21f3 Delete type=0 #897
+2019/08/05-01:52:53.486 25a8 Level-0 table #902: started
+2019/08/05-01:52:53.493 25a8 Level-0 table #902: 16938 bytes OK
+2019/08/05-01:52:53.495 25a8 Delete type=0 #899
+2019/08/05-01:52:53.496 2587 Compacting 4@0 + 1@1 files
+2019/08/05-01:52:53.526 2587 Generated table #903@0: 11027 keys, 401963 bytes
+2019/08/05-01:52:53.526 2587 Compacted 4@0 + 1@1 files => 401963 bytes
+2019/08/05-01:52:53.529 2587 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/08/05-01:52:53.531 2587 Delete type=2 #894
+2019/08/05-01:52:53.532 2587 Delete type=2 #898
+2019/08/05-01:52:53.532 2587 Delete type=2 #902
+2019/08/05-01:52:53.532 2587 Delete type=2 #900
+2019/08/05-01:52:53.532 2587 Delete type=2 #896

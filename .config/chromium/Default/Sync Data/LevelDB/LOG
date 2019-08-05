@@ -1,0 +1,9 @@
+2019/08/05-01:05:37.553 195c Reusing MANIFEST /home/play/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/08/05-01:05:37.554 195c Recovering log #516
+2019/08/05-01:05:37.556 195c Reusing old log /home/play/.config/chromium/Default/Sync Data/LevelDB/000516.log 
+2019/08/05-01:07:36.505 1b21 Level-0 table #521: started
+2019/08/05-01:07:36.513 1b21 Level-0 table #521: 111334 bytes OK
+2019/08/05-01:07:36.518 1b21 Delete type=0 #516
+2019/08/05-02:01:29.670 1b21 Level-0 table #523: started
+2019/08/05-02:01:29.692 1b21 Level-0 table #523: 106594 bytes OK
+2019/08/05-02:01:29.695 1b21 Delete type=0 #520

@@ -1,0 +1,518 @@
+{
+   "checksum": "d84c2a9ce04cb77ad9a1d04d1dc8dda1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13191203109212047",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13196925430958430"
+            },
+            "name": "Vim documentation: digraph",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://vimdoc.sourceforge.net/htmldoc/digraph.html#digraph-table"
+         }, {
+            "date_added": "13193760453116613",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13202256493745334"
+            },
+            "name": "Career Tool - Job Bank",
+            "sync_transaction_version": "51",
+            "type": "url",
+            "url": "https://www.jobbank.gc.ca/studentdashboard/FOS20405/LOS05"
+         }, {
+            "date_added": "13208114105670361",
+            "id": "73",
+            "name": "Engineering II - Mac Eng Class of 2015",
+            "sync_transaction_version": "95",
+            "type": "url",
+            "url": "https://sites.google.com/site/macengfifteen/eng-docs/engineering-ii#TOC-1.2.-ELEC-ENG-2CI5"
+         }, {
+            "date_added": "13186909554116115",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13196649000694374"
+            },
+            "name": "The Motivation Hacker by Nick Winter: Summary, Notes, and Lessons - Nat Eliason",
+            "sync_transaction_version": "13",
+            "type": "url",
+            "url": "https://www.nateliason.com/notes/motivation-hacker-nick-winter"
+         }, {
+            "date_added": "13187047978455789",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13201892920570332"
+            },
+            "name": "How to Finish Homework FAST",
+            "sync_transaction_version": "33",
+            "type": "url",
+            "url": "https://collegeinfogeek.com/how-to-finish-homework-fast/"
+         }, {
+            "date_added": "13187875671777014",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13194564087338158"
+            },
+            "name": "How to Study if You’re Not Good at Math – Lee van Brussel",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://ms.mcmaster.ca/~vanbrulw/index.php/how-to-study-if-youre-not-good-at-math/"
+         }, {
+            "date_added": "13189993476502602",
+            "id": "13",
+            "meta_info": {
+               "last_visited_desktop": "13195281314504786"
+            },
+            "name": "Linux From Scratch",
+            "sync_transaction_version": "15",
+            "type": "url",
+            "url": "http://linuxfromscratch.org/lfs/view/stable-systemd/"
+         }, {
+            "date_added": "13190889654303270",
+            "id": "17",
+            "meta_info": {
+               "last_visited_desktop": "13199940662701429"
+            },
+            "name": "HOWTO do Linux kernel development — The Linux Kernel documentation",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.kernel.org/doc/html/v4.14/process/howto.html"
+         }, {
+            "date_added": "13208389155889729",
+            "id": "74",
+            "name": "Dynamic style - manipulating CSS with JavaScript - W3C Wiki",
+            "sync_transaction_version": "95",
+            "type": "url",
+            "url": "https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript"
+         }, {
+            "date_added": "13208389159589573",
+            "id": "75",
+            "name": "javascript - How can I conditionally change css styles with js? - Stack Overflow",
+            "sync_transaction_version": "95",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/36587177/how-can-i-conditionally-change-css-styles-with-js"
+         }, {
+            "date_added": "13190935189536461",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13200607115451824"
+            },
+            "name": "language agnostic - Learning to write a compiler - Stack Overflow",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/1669/learning-to-write-a-compiler"
+         }, {
+            "date_added": "13190935193034437",
+            "id": "19",
+            "meta_info": {
+               "last_visited_desktop": "13190935193034889"
+            },
+            "name": "tutor.pdf",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.microsoft.com/en-us/research/uploads/prod/1992/01/tutor.pdf"
+         }, {
+            "date_added": "13190935201330500",
+            "id": "20",
+            "meta_info": {
+               "last_visited": "13190975608168175",
+               "last_visited_desktop": "13203477050264668"
+            },
+            "name": "How to implement a programming language (tutorial for beginners)",
+            "sync_transaction_version": "86",
+            "type": "url",
+            "url": "http://lisperator.net/pltut/parser/"
+         }, {
+            "date_added": "13190943171844128",
+            "id": "21",
+            "meta_info": {
+               "last_visited_desktop": "13191374766028641"
+            },
+            "name": "Here Is A Cover Letter Template To Land A Remote Job – Remotise",
+            "sync_transaction_version": "95",
+            "type": "url",
+            "url": "https://remotise.com/2018/12/21/here-is-a-cover-letter-template-to-land-a-remote-job/"
+         }, {
+            "date_added": "13191033698802053",
+            "id": "22",
+            "meta_info": {
+               "last_visited_desktop": "13203477055388211"
+            },
+            "name": "Basics • Chapter 3 • Build Your Own Lisp",
+            "sync_transaction_version": "86",
+            "type": "url",
+            "url": "http://www.buildyourownlisp.com/chapter3_basics"
+         }, {
+            "date_added": "13191146610808317",
+            "id": "23",
+            "meta_info": {
+               "last_visited_desktop": "13191217131115030"
+            },
+            "name": "A Professor in Waterloo Engineering | Reflections on University of Waterloo Engineering, admissions, teaching, and research",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://profbillanderson.com/"
+         }, {
+            "date_added": "13191450744654626",
+            "id": "24",
+            "meta_info": {
+               "last_visited_desktop": "13191450744655156"
+            },
+            "name": "Contents",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node6.html"
+         }, {
+            "date_added": "13191451802611123",
+            "id": "25",
+            "meta_info": {
+               "last_visited_desktop": "13191459358258754"
+            },
+            "name": "Information Technology Management | Undergraduate Programs | University of Waterloo",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://uwaterloo.ca/future-students/programs/information-technology-management"
+         }, {
+            "date_added": "13191451806043327",
+            "id": "26",
+            "meta_info": {
+               "last_visited_desktop": "13191472607162297"
+            },
+            "name": "Computer Science — Information Systems Stream | Admissions & Student Recruitment",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://utsc.utoronto.ca/admissions/programs/computer-science-%E2%80%94-information-systems-stream"
+         }, {
+            "date_added": "13191452437353451",
+            "id": "27",
+            "meta_info": {
+               "last_visited_desktop": "13191459354695356"
+            },
+            "name": "Information Technology Management (ITM) | Mathematics | University of Waterloo",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://uwaterloo.ca/math/future-undergraduates/programs/information-technology-management-itm"
+         }, {
+            "date_added": "13191452444999698",
+            "id": "28",
+            "meta_info": {
+               "last_visited_desktop": "13191459376619800"
+            },
+            "name": "Management Engineering curriculum | Management Sciences | University of Waterloo",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://uwaterloo.ca/management-sciences/management-engineering/future-undergraduate-students/curriculum"
+         }, {
+            "date_added": "13191452503420856",
+            "id": "29",
+            "meta_info": {
+               "last_visited_desktop": "13191452503421461"
+            },
+            "name": "Management Sciences option (MSCI option) | Management Sciences | University of Waterloo",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://uwaterloo.ca/management-sciences/current-undergraduate-students/management-sciences-option-msci-option#requirements"
+         }, {
+            "date_added": "13192687173470901",
+            "id": "30",
+            "meta_info": {
+               "last_visited_desktop": "13194481650458068"
+            },
+            "name": "A coding project a day for 20 days – freeCodeCamp.org",
+            "sync_transaction_version": "89",
+            "type": "url",
+            "url": "https://medium.freecodecamp.org/a-coding-project-a-day-for-20-days-5cd4c9383f84"
+         }, {
+            "date_added": "13192783557395024",
+            "id": "31",
+            "meta_info": {
+               "last_visited_desktop": "13199240843450585"
+            },
+            "name": "Buttons · An Introduction to Elm",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://guide.elm-lang.org/architecture/buttons.html"
+         }, {
+            "date_added": "13193800553060282",
+            "id": "32",
+            "meta_info": {
+               "last_visited_desktop": "13196212944254800"
+            },
+            "name": "The Power of Habit (Audiobook) by Charles Duhigg | Audible.com",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.audible.com/pd/The-Power-of-Habit-Audiobook/B007C64916?ref=a_lib_c4_libItem_0_B007C64916&pf_rd_p=ae76b2bb-e63d-4a67-b357-dab3dee05ca1&pf_rd_r=FFKW8YWH8T775HBSXDW3&"
+         }, {
+            "date_added": "13193982785783398",
+            "id": "33",
+            "meta_info": {
+               "last_visited_desktop": "13193982785785792"
+            },
+            "name": "CSS Properties Index · Jens Oliver Meiert",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://meiert.com/en/indices/css-properties/"
+         }, {
+            "date_added": "13194045306683840",
+            "id": "34",
+            "meta_info": {
+               "last_visited_desktop": "13194045306685087"
+            },
+            "name": "java - Can't execute jar- file: \"no main manifest attribute\" - Stack Overflow",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/9689793/cant-execute-jar-file-no-main-manifest-attribute"
+         }, {
+            "date_added": "13194172069625984",
+            "id": "35",
+            "meta_info": {
+               "last_visited_desktop": "13194172069627819"
+            },
+            "name": "Maltronics - Your one stop hacker hardware shop",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://maltronics.com/?utm_source=yt&utm_medium=vid&utm_campaign=steg"
+         }, {
+            "date_added": "13194255755883575",
+            "id": "36",
+            "meta_info": {
+               "last_visited_desktop": "13194255755884632"
+            },
+            "name": "TimeTune • Optimize Your Time",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://timetune.center/"
+         }, {
+            "date_added": "13194308539141139",
+            "id": "37",
+            "meta_info": {
+               "last_visited_desktop": "13194564118226252"
+            },
+            "name": "1a1zstudyfinal.pdf",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://ms.mcmaster.ca/~vanbrulw/wp-content/uploads/2018/11/1a1zstudyfinal.pdf"
+         }, {
+            "date_added": "13194312322231313",
+            "id": "38",
+            "meta_info": {
+               "last_visited_desktop": "13199845488827697"
+            },
+            "name": "MacArchives",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://macarchives.xyz/"
+         }, {
+            "date_added": "13194478787395824",
+            "id": "39",
+            "meta_info": {
+               "last_visited_desktop": "13202883733415128"
+            },
+            "name": "From Zero to Game Designer: how to start building video games even if you don’t have any experience",
+            "sync_transaction_version": "68",
+            "type": "url",
+            "url": "https://medium.freecodecamp.org/from-zero-to-game-designer-how-to-start-building-video-games-even-if-you-dont-have-any-experience-5e2f9f45f4bb"
+         }, {
+            "date_added": "13194643559339513",
+            "id": "40",
+            "meta_info": {
+               "last_visited_desktop": "13194643559340534"
+            },
+            "name": "Guides Archive - Blockgeeks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://blockgeeks.com/guides/"
+         }, {
+            "date_added": "13199572696371734",
+            "id": "42",
+            "meta_info": {
+               "last_visited_desktop": "13202494139804962"
+            },
+            "name": "Classpath (Java) - Wikipedia",
+            "sync_transaction_version": "57",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Classpath_%28Java%29"
+         }, {
+            "date_added": "13199578711247017",
+            "id": "43",
+            "meta_info": {
+               "last_visited_desktop": "13199578711248433"
+            },
+            "name": "Why do I need to delete the package line to run Java outside of NetBeans? - Stack Overflow",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/31866114/why-do-i-need-to-delete-the-package-line-to-run-java-outside-of-netbeans"
+         }, {
+            "date_added": "13199680830047143",
+            "id": "44",
+            "meta_info": {
+               "last_visited_desktop": "13199680830048260"
+            },
+            "name": "The Cryptopals Crypto Challenges",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://cryptopals.com/"
+         }, {
+            "date_added": "13199680857095777",
+            "id": "45",
+            "meta_info": {
+               "last_visited_desktop": "13199680857096801"
+            },
+            "name": "OverTheWire: Wargames",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://overthewire.org/wargames/"
+         }, {
+            "date_added": "13199680882144848",
+            "id": "46",
+            "meta_info": {
+               "last_visited_desktop": "13199680882145105"
+            },
+            "name": "Under The Wire | PowerShell Training for The People",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://underthewire.tech/"
+         }, {
+            "date_added": "13199680932426877",
+            "id": "47",
+            "meta_info": {
+               "last_visited_desktop": "13200174143978806"
+            },
+            "name": "Learn to code the full stack with free tutorials and coding courses | FactorPad",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://factorpad.com/index.html"
+         }, {
+            "date_added": "13202018679470796",
+            "id": "51",
+            "meta_info": {
+               "last_visited_desktop": "13202549580808536"
+            },
+            "name": "Online Masters Degree in Cybersecurity | Guide to Cybersecurity Graduate Programs",
+            "sync_transaction_version": "58",
+            "type": "url",
+            "url": "https://www.cybersecuritymastersdegree.org/"
+         }, {
+            "date_added": "13202180169733506",
+            "id": "52",
+            "meta_info": {
+               "last_visited_desktop": "13203205191495191"
+            },
+            "name": "chrome://flags/#network-service",
+            "sync_transaction_version": "83",
+            "type": "url",
+            "url": "chrome://flags/#network-service"
+         }, {
+            "date_added": "13202282057315705",
+            "id": "54",
+            "meta_info": {
+               "last_visited_desktop": "13202282057316412"
+            },
+            "name": "The advantages of building your website from scratch",
+            "sync_transaction_version": "51",
+            "type": "url",
+            "url": "https://hackernoon.com/the-advantages-of-building-your-website-from-scratch-da5748a1baaf"
+         }, {
+            "date_added": "13202439205845007",
+            "id": "56",
+            "meta_info": {
+               "last_visited_desktop": "13202936516736310"
+            },
+            "name": "Summer Student – IT Assistant – Mon Sheong Foundation",
+            "sync_transaction_version": "69",
+            "type": "url",
+            "url": "https://www.monsheong.org/get-involved/jobs/summer-student-assistant/"
+         }, {
+            "date_added": "13202516331050952",
+            "id": "58",
+            "meta_info": {
+               "last_visited_desktop": "13202516331051800"
+            },
+            "name": "Vim Awesome",
+            "sync_transaction_version": "58",
+            "type": "url",
+            "url": "https://vimawesome.com/"
+         }, {
+            "date_added": "13204179543866732",
+            "id": "60",
+            "meta_info": {
+               "last_visited_desktop": "13204508082918856"
+            },
+            "name": "Free Course: Build A Blog From Scratch 👩‍🍳",
+            "sync_transaction_version": "88",
+            "type": "url",
+            "url": "https://www.freecodecamp.org/news/how-to-design-and-develop-a-beautiful-blog-from-scratch-a0cd1af46845/"
+         }, {
+            "date_added": "13207436154832783",
+            "id": "65",
+            "name": "Expanded Main Page - OSDev Wiki",
+            "sync_transaction_version": "93",
+            "type": "url",
+            "url": "https://wiki.osdev.org/Expanded_Main_Page"
+         }, {
+            "date_added": "13207675891725572",
+            "id": "67",
+            "name": "Font Awesome Icon List (with charcode)",
+            "sync_transaction_version": "94",
+            "type": "url",
+            "url": "http://waramo.co.jp/fa/"
+         }, {
+            "date_added": "13207812659044335",
+            "id": "68",
+            "meta_info": {
+               "last_visited_desktop": "13207812659044977"
+            },
+            "name": "GitHub - christophgysin/pasystray: PulseAudio system tray",
+            "sync_transaction_version": "94",
+            "type": "url",
+            "url": "https://github.com/christophgysin/pasystray"
+         }, {
+            "date_added": "13208113408619616",
+            "id": "70",
+            "name": "Home - Federico Dossena",
+            "sync_transaction_version": "95",
+            "type": "url",
+            "url": "https://fdossena.com/?p=home.frag"
+         }, {
+            "date_added": "13208113412363729",
+            "id": "71",
+            "name": "Karol Sitarz ✨",
+            "sync_transaction_version": "95",
+            "type": "url",
+            "url": "https://sitarz.tk/"
+         }, {
+            "date_added": "13208113988487129",
+            "id": "72",
+            "name": "linrev.pdf - Google Drive",
+            "sync_transaction_version": "95",
+            "type": "url",
+            "url": "https://drive.google.com/file/d/1bVrBzFFAeqJHlBx1Sc2_nm3IZU2Ri3hP/view"
+         } ],
+         "date_added": "13201733949206634",
+         "date_modified": "13209289763203941",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13201733949206639",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "104",
+      "synced": {
+         "children": [  ],
+         "date_added": "13201733949206640",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
